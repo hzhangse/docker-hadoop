@@ -1,4 +1,4 @@
-FROM debian:8
+FROM debian:9
 MAINTAINER ryan <rainbow954@163.com>
 
 RUN echo "deb http://ftp.debian.org/debian jessie-backports main" >> /etc/apt/sources.list
